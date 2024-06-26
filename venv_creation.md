@@ -44,3 +44,6 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
     ```bash
     pip list
     ```
+
+![first_step](https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91)
+
