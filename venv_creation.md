@@ -11,13 +11,13 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
     cd Lab_SA
     ```
 
-3. Una vez dentro de ese directorio, dar click derecho y abrir una terminal o consola. Posteriormente ejecutar el comando:
+2. Una vez dentro de ese directorio, dar click derecho y abrir una terminal o consola. Posteriormente ejecutar el comando:
 
     ```bash
     python -m venv venv
     ```
 
-4. Activar el entorno virtual (desde la terminal) ejecutando:
+3. Activar el entorno virtual (desde la terminal) ejecutando:
 
     - En Windows:
 
@@ -31,17 +31,16 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
         source venv/bin/activate
         ```
 
-5. Descargar el archivo `requirements.txt` desde el [repositorio](https://github.com/Javiec369/SA_practice-1/tree/main/Lab1_2024-2) asignado a la práctica.
+4. Descargar el archivo `requirements.txt` desde el [repositorio](https://github.com/Javiec369/SA_practice-1/tree/main/Lab1_2024-2) asignado a la práctica.
 
-6. Guardar el archivo `.txt` en el directorio creado para la práctica y ejecutar el siguiente comando dentro del directorio para realizar la instalación de las librerías.
+5. Guardar el archivo `.txt` en el directorio creado para la práctica y ejecutar el siguiente comando dentro del directorio para realizar la instalación de las librerías.
 
     ```bash
     pip install -r requirements.txt
     ```
 
-7. Verificar que las librerías han sido instaladas correctamente utilizando el siguiente comando nuevamente en la terminal.
+6. Verificar que las librerías han sido instaladas correctamente utilizando el siguiente comando nuevamente en la terminal.
 
     ```bash
     pip list
     ```
-    
