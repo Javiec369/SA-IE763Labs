@@ -6,6 +6,9 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
 
 1. Crear un directorio para la práctica. Añadir el número de la práctica al final del nombre.
 
+![Captura de pantalla 2024-06-26 135432](https://github.com/Javiec369/SA_practice-1/assets/87388852/20a85c70-8857-40d0-b916-407ce5a63f6f)
+
+
     ```bash
     mkdir Lab_SA
     cd Lab_SA
