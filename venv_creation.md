@@ -1,6 +1,6 @@
 # Creación de un Entorno Virtual
 
-Es necesario realizar una serie de pasos que nos permitirán tener las librerías requeridas para la ejecución de los programas dentro de un entorno virtual.
+Para la correcta ejecución de la práctica se requieren instaladas algunas librerías o paquetes de Python. A continuación, los pasos a seguir para realizar la creación de un entorno virtual que nor permite crear un espacio aislado para un proyecto, con su propio conjunto de dependencias, independientemente de las que se instalen en el sistema global.
 
 1. Crear un directorio para la práctica. Añadir el número de la práctica al final del nombre.
 
