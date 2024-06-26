@@ -48,7 +48,9 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
 ## Visualización de ejemplo 
 
 Creación del entorno virtual.
+
 <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91" width="520" height="410"/>
 
 Instalación de los paquetes y/o librerías.
+
 <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/ec432bcb-ecbe-4fad-a5aa-40b8a4259b39" width="520" height="410"/>
