@@ -5,22 +5,19 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
 Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
 
 1. Crear un directorio para la práctica. Añadir el número de la práctica al final del nombre.
-
-![Captura de pantalla 2024-06-26 135432](https://github.com/Javiec369/SA_practice-1/assets/87388852/20a85c70-8857-40d0-b916-407ce5a63f6f)
-
-
+2. 
     ```bash
     mkdir Lab_SA
     cd Lab_SA
     ```
 
-2. Una vez dentro de ese directorio, dar click derecho y abrir una terminal o consola. Posteriormente ejecutar el comando:
+3. Una vez dentro de ese directorio, dar click derecho y abrir una terminal o consola. Posteriormente ejecutar el comando:
 
     ```bash
     python -m venv venv
     ```
 
-3. Activar el entorno virtual (desde la terminal) ejecutando:
+4. Activar el entorno virtual (desde la terminal) ejecutando:
 
     - En Windows:
 
@@ -34,15 +31,15 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
         source venv/bin/activate
         ```
 
-4. Descargar el archivo `requirements.txt` desde el [repositorio](https://github.com/Javiec369/SA_practice-1/tree/main/Lab1_2024-2) asignado a la práctica.
+5. Descargar el archivo `requirements.txt` desde el [repositorio](https://github.com/Javiec369/SA_practice-1/tree/main/Lab1_2024-2) asignado a la práctica.
 
-5. Guardar el archivo `.txt` en el directorio creado para la práctica y ejecutar el siguiente comando dentro del directorio para realizar la instalación de las librerías.
+6. Guardar el archivo `.txt` en el directorio creado para la práctica y ejecutar el siguiente comando dentro del directorio para realizar la instalación de las librerías.
 
     ```bash
     pip install -r requirements.txt
     ```
 
-6. Verificar que las librerías han sido instaladas correctamente utilizando el siguiente comando nuevamente en la terminal.
+7. Verificar que las librerías han sido instaladas correctamente utilizando el siguiente comando nuevamente en la terminal.
 
     ```bash
     pip list
