@@ -31,7 +31,7 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
         source venv/bin/activate
         ```
 
-4. Descargar el archivo `requirements.txt` desde el [repositorio](URL_DEL_REPOSITORIO) asignado a la práctica.
+4. Descargar el archivo `requirements.txt` desde el [repositorio]([URL_DEL_REPOSITORIO](https://github.com/Javiec369/SA_practice-1/tree/main/Lab1_2024-2)) asignado a la práctica.
 
 5. Guardar el archivo `.txt` en el directorio creado para la práctica y ejecutar el siguiente comando dentro del directorio para realizar la instalación de las librerías.
 
