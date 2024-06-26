@@ -44,3 +44,4 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
     ```bash
     pip list
     ```
+    
