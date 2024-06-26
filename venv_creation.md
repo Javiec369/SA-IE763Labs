@@ -45,5 +45,11 @@ Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
     pip list
     ```
 
+## Material visual
+
+Creación del entorno virtual.
 ![first_step](https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91)
+
+Instalación de los paquetes y/o librerías.
+![sd_step](https://github.com/Javiec369/SA_practice-1/assets/87388852/22fe9b68-71d1-452b-9cfc-2ff19c8d0015)
 
