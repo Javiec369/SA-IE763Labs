@@ -1,1 +1,1 @@
-# SA_practice-1
+# Laboratorio #1: Adquisición de Señales
