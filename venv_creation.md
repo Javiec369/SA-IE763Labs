@@ -5,7 +5,7 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
 Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
 
 1. Crear un directorio para la práctica. Añadir el número de la práctica al final del nombre.
-2. 
+   
     ```bash
     mkdir Lab_SA
     cd Lab_SA
