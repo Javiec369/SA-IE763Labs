@@ -1,4 +1,4 @@
-# Intalación de FFmpeg
+# Instalación de FFmpeg
 
 # Creación de un entorno virtual
 
