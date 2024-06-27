@@ -1,6 +1,6 @@
 # Leer para el desarrollo de la práctica
 
-> Note: se presenta en la tabla de contenidos algunas instalaciones adicionales para el desarrollo de la práctica. Asimismo, se detalla en cada paso como realizar correctamente estás dichas instalaciones. 
+> Note: se presenta en la tabla de contenidos algunas instalaciones adicionales para el desarrollo de la práctica. Asimismo, se detalla en cada paso como realizar correctamente dichas instalaciones. 
 
 <hr />
 
@@ -11,15 +11,16 @@
   
 ## FFmpeg
 
-- Abre el Panel de Control.
+Está es una herramienta para manipular y convertir archivos multimedia. Descargar el archivo `ffmpeg-master-latest-win64-gpl.zip` del siguiente [enlace](https://github.com/BtbN/FFmpeg-Builds/releases): repositorio en Github de FFmpeg. Descomprimir el archivo y copiar el archivo `ffmpeg` que se encuentra en la carpeta `bin`. Una vez hecho, continue con el siguiente proceso
+
+- Cree una carpeta dentro de su disco local. Llamela ffmpeg y copie el archivo `ffmpeg`
+- Copie la dirección de la ruta de ese archivo (por ejemplo: C:\ffmpeg\bin)
 - Ve a "Sistema y seguridad" y luego a "Sistema".
 - Haz clic en "Configuración avanzada del sistema" en el panel de la izquierda.
 - En la ventana que se abre, haz clic en "Variables de entorno".
 - En la sección "Variables del sistema", encuentra y selecciona la variable Path, luego haz clic en "Editar".
-- En la ventana "Editar variable de entorno", haz clic en "Nuevo" e introduce la ruta a la carpeta bin de ffmpeg (por ejemplo, C:\ffmpeg\bin).
+- En la ventana "Editar variable de entorno", haz clic en "Nuevo" e introduce la ruta a la carpeta del segundo paso.
 - Haz clic en "Aceptar" en todas las ventanas para aplicar los cambios.
-
-
 
 ## Entornos virtuales
 
