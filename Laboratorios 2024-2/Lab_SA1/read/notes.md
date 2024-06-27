@@ -1,3 +1,7 @@
+# Notas para el desarrollo de la práctica
+<hr />
+> Note: se presenta en la tabla de contenidos la 
+
 # Instalación de FFmpeg
 
 # Creación de un entorno virtual
