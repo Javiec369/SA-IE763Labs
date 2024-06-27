@@ -11,7 +11,7 @@
   
 ## FFmpeg
 
-Está es una herramienta para manipular y convertir archivos multimedia. Descargar el archivo `ffmpeg-master-latest-win64-gpl.zip` del siguiente [enlace](https://github.com/BtbN/FFmpeg-Builds/releases): repositorio en Github de FFmpeg. Descomprimir el archivo y copiar el archivo `ffmpeg` que se encuentra en la carpeta `bin`. Una vez hecho, continue con el siguiente proceso
+Está es una herramienta para manipular y convertir archivos multimedia. Descargar el archivo `ffmpeg-master-latest-win64-gpl.zip` del siguiente [enlace](https://github.com/BtbN/FFmpeg-Builds/releases): repositorio en Github de FFmpeg. Descomprimir el zip y copiar el archivo `ffmpeg` que se encuentra en la carpeta 'bin'. Una vez hecho, continue con el siguiente proceso.
 
 - Cree una carpeta dentro de su disco local. Llamela ffmpeg y copie el archivo `ffmpeg`
 - Copie la dirección de la ruta de ese archivo (por ejemplo: C:\ffmpeg\bin)
