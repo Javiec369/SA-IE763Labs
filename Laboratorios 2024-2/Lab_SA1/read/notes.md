@@ -21,11 +21,7 @@ Está es una herramienta para manipular y convertir archivos multimedia. Descarg
 - En la ventana "Editar variable de entorno", haz clic en "Nuevo" e introduce la ruta a la carpeta del segundo paso.
 - Haz clic en "Aceptar" en todas las ventanas para aplicar los cambios.
 
-A continuación, un video explicativo sobre la instalación:
-
-<p align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0zN9oZ98ZgE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+Para más detalles, puedes ver este [video en YouTube sobre la instalación](https://www.youtube.com/watch?v=0zN9oZ98ZgE).
 
 ## Entornos virtuales
 
