@@ -9,12 +9,12 @@ from nidaqmx.constants import AcquisitionType, READ_ALL_AVAILABLE
 import matplotlib.pyplot as plt
 import numpy as np
 
-
-
 # Parameters
 f_orig = 5000  
 f_sam = 10    
 n_bits = 2    
+
+
 
 # Acquisition
 with nidaqmx.Task() as task:
