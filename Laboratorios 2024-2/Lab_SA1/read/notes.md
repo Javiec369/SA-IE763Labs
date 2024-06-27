@@ -14,7 +14,7 @@
 Está es una herramienta para manipular y convertir archivos multimedia. Descargar el archivo `ffmpeg-master-latest-win64-gpl.zip` del siguiente [enlace](https://github.com/BtbN/FFmpeg-Builds/releases): repositorio en Github de FFmpeg. Descomprimir el zip y copiar el archivo `ffmpeg` que se encuentra en la carpeta 'bin'. Una vez hecho, continue con el siguiente proceso.
 
 - Cree una carpeta 'ffmpeg' dentro de su disco local y copie el archivo `ffmpeg`
-- Copie la dirección de la ruta de ese archivp. Por ejemplo: `C:\ffmpeg\bin`
+- Copie la dirección de la ruta de ese archivo. Por ejemplo: `C:\ffmpeg\bin`
 - En configuración > sistema > información. Busque "Configuración avanzada del sistema".
 - En la ventana que se abre, haga clic en "Variables de entorno".
 - En la sección "Variables del sistema" seleccione la variable "Path", luego haz clic en "Editar".
