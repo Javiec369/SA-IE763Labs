@@ -19,7 +19,7 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
     ```
 
 <p align="center">
-   <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91" width="470" height="350"/>
+   <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91" width="470" height="370"/>
 </p>
 
 3. Activar el entorno virtual (desde la terminal) ejecutando:
