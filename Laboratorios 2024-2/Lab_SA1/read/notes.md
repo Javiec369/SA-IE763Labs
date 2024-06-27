@@ -6,7 +6,7 @@
 
 ## Tabla de contenidos
 
-- [FFmpeg](#FFmpeg)
+- [Instalación FFmpeg](#FFmpeg)
 - [Entornos virtuales](#venv)
   
 ## FFmpeg
