@@ -18,7 +18,9 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
     python -m venv venv
     ```
 
-<img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91" width="570" height="440"/>
+<div style="text-align: center;">
+   <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91" width="570" height="440"/>
+</div>
 
 3. Activar el entorno virtual (desde la terminal) ejecutando:
 
