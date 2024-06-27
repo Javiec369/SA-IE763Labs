@@ -37,7 +37,7 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
     pip install -r requirements.txt
     ```
 
-6. Verificar que las librerías han sido instaladas correctamente utilizando el siguiente comando nuevamente en la terminal.
+6. Verificar que las librerías han sido instaladas correctamente.
 
     ```bash
     pip list
@@ -45,10 +45,10 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
 
 ## Visualización de ejemplo 
 
-Creación del entorno virtual dentro de un directorio o carpeta.
+- Creación del entorno virtual dentro de un directorio o carpeta.
 
 <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91" width="570" height="440"/>
 
-Instalación de los paquetes/librerías contenidas dentro del archivo `requirements.txt`.
+- Instalación de los paquetes/librerías contenidas dentro del archivo `requirements.txt`.
 
 <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/ec432bcb-ecbe-4fad-a5aa-40b8a4259b39" width="570" height="440"/>
