@@ -49,13 +49,7 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
     ```bash
     pip list
     ```
-
-
-
-- Creación del entorno virtual dentro de un directorio o carpeta.
-
-
-
-- Instalación de los paquetes/librerías contenidas dentro del archivo `requirements.txt`.
-
-<img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/ec432bcb-ecbe-4fad-a5aa-40b8a4259b39" width="570" height="440"/>
+    
+<p align="center">    
+<img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/ec432bcb-ecbe-4fad-a5aa-40b8a4259b39" width="470" height="370"/>
+</p>
