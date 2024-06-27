@@ -2,8 +2,6 @@
 
 Para la correcta ejecución de la práctica se requieren instaladas algunas librerías o paquetes de Python. A continuación, los pasos a seguir para realizar la creación de un entorno virtual que nos permite crear un espacio aislado para un proyecto, con su propio conjunto de dependencias, independientemente de las que se instalen en el sistema global. 
 
-Los siguientes pasos se desarrollan desde la consola o terminal del sistema.
-
 1. Crear un directorio para la práctica. Añadir el número de la práctica al final del nombre.
    
     ```bash
