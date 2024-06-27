@@ -9,10 +9,19 @@
 - [Instalación FFmpeg](#FFmpeg)
 - [Entornos virtuales](#venv)
   
+## FFmpeg
+
+- Abre el Panel de Control.
+- Ve a "Sistema y seguridad" y luego a "Sistema".
+- Haz clic en "Configuración avanzada del sistema" en el panel de la izquierda.
+- En la ventana que se abre, haz clic en "Variables de entorno".
+- En la sección "Variables del sistema", encuentra y selecciona la variable Path, luego haz clic en "Editar".
+- En la ventana "Editar variable de entorno", haz clic en "Nuevo" e introduce la ruta a la carpeta bin de ffmpeg (por ejemplo, C:\ffmpeg\bin).
+- Haz clic en "Aceptar" en todas las ventanas para aplicar los cambios.
 
 
 
-# Creación de un entorno virtual
+## Entornos virtuales
 
 Para la correcta ejecución de la práctica se requieren instaladas algunas librerías o paquetes de Python. A continuación, los pasos a seguir para realizar la creación de un entorno virtual que nos permite crear un espacio aislado para un proyecto, con su propio conjunto de dependencias, independientemente de las que se instalen en el sistema global. 
 
@@ -66,4 +75,3 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
 <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/ec432bcb-ecbe-4fad-a5aa-40b8a4259b39" width="470" height="370"/>
 </p>
 
-## FFmpeg
