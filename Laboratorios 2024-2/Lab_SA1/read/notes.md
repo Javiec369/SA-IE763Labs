@@ -8,7 +8,7 @@
 
 - [Instalación FFmpeg](#FFmpeg)
 - [Entornos virtuales](#venv)
-  
+
 ## Instalación de FFmpeg
 
 Está es una herramienta para manipular y convertir archivos multimedia. Descargar el archivo `ffmpeg-master-latest-win64-gpl.zip` del siguiente [enlace](https://github.com/BtbN/FFmpeg-Builds/releases): repositorio en Github de FFmpeg. Descomprimir el zip y copiar el archivo `ffmpeg` que se encuentra en la carpeta 'bin'. Una vez hecho, continue con el siguiente proceso.
