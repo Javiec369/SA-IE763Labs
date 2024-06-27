@@ -2,12 +2,12 @@
 
 > Note: se presenta en la tabla de contenidos algunas instalaciones adicionales para el desarrollo de la práctica. Asimismo, se detalla en cada paso como realizar correctamente dichas instalaciones. 
 
-<hr />
-
 ## Tabla de contenidos
 
 - [Instalación FFmpeg](#FFmpeg)
 - [Entornos virtuales](#venv)
+
+<hr />
 
 ## Instalación de FFmpeg
 
