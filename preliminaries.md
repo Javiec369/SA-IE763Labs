@@ -47,8 +47,8 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
 
 Creación del entorno virtual.
 
-<img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91" width="470" height="420"/>
+<img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/e65a1d3b-22a1-4e62-b51a-acb7cabdcc91" width="570" height="420"/>
 
 Instalación de los paquetes y/o librerías.
 
-<img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/ec432bcb-ecbe-4fad-a5aa-40b8a4259b39" width="470" height="420"/>
+<img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/ec432bcb-ecbe-4fad-a5aa-40b8a4259b39" width="570" height="420"/>
