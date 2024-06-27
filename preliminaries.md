@@ -31,7 +31,7 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
 
 4. Descargar el archivo `requirements.txt` desde el [repositorio](https://github.com/Javiec369/SA_practice-1/tree/main/Lab1_2024-2) asignado a la práctica.
 
-5. Guardar el archivo `.txt` en el directorio creado para la práctica y ejecutar el siguiente comando dentro del directorio para realizar la instalación de las librerías.
+5. Guardar el archivo `requirements.txt` en el directorio creado para la práctica y ejecutar el siguiente comando dentro del directorio para realizar la instalación de las librerías.
 
     ```bash
     pip install -r requirements.txt
