@@ -9,7 +9,7 @@
 - [Instalación FFmpeg](#FFmpeg)
 - [Entornos virtuales](#venv)
   
-## FFmpeg
+
 
 
 # Creación de un entorno virtual
@@ -65,3 +65,5 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
 <p align="center">    
 <img src="https://github.com/Javiec369/SA_practice-1/assets/87388852/ec432bcb-ecbe-4fad-a5aa-40b8a4259b39" width="470" height="370"/>
 </p>
+
+## FFmpeg
