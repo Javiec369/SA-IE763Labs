@@ -14,8 +14,6 @@ f_orig = 5000
 f_sam = 10    
 n_bits = 2    
 
-
-
 # Acquisition
 with nidaqmx.Task() as task:
     task.ai_channels.add_ai_voltage_chan("myDAQ1/ai0")
