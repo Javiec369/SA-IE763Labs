@@ -21,6 +21,12 @@ Está es una herramienta para manipular y convertir archivos multimedia. Descarg
 - En la ventana "Editar variable de entorno", haz clic en "Nuevo" e introduce la ruta a la carpeta del segundo paso.
 - Haz clic en "Aceptar" en todas las ventanas para aplicar los cambios.
 
+A continuación, un video explicativo sobre la instalación:
+
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0zN9oZ98ZgE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 ## Entornos virtuales
 
 Para la correcta ejecución de la práctica se requieren instaladas algunas librerías o paquetes de Python. A continuación, los pasos a seguir para realizar la creación de un entorno virtual que nos permite crear un espacio aislado para un proyecto, con su propio conjunto de dependencias, independientemente de las que se instalen en el sistema global. 
