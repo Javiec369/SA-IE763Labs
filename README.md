@@ -1,1 +1,1 @@
-# Laboratorio #1: Adquisición de Señales
+# Laboratorios de Análisis de Señales

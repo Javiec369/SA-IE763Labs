@@ -40,8 +40,8 @@ upload_and_resample_audio(new_sample_rate)
 sample_rate, audio_data = wavfile.read(d)
 audio_data = audio_data[:, 1]
 
-x = np.fft.rfft(audio_data)
-frecuencia = np.fft.rfftfreq(len(audio_data), d=1/sample_rate)
+x = sp.fft.rfft(audio_data)
+frecuencia = sp.fft.rfftfreq(len(audio_data), d=1/sample_rate)
 
 audio2 = AudioSegment.from_wav(r"ruta")
 s=audio2.export("temp2.wav", format="wav")
@@ -49,8 +49,8 @@ s=audio2.export("temp2.wav", format="wav")
 sample_rate2, audio_data2 = wavfile.read(s)
 audio_data2 = audio_data2[:, 1]
 
-x1 = np.fft.rfft(audio_data2)
-frecuencia1 = np.fft.rfftfreq(len(audio_data2), d=1/sample_rate2)
+x1 = sp.fft.rfft(audio_data2)
+frecuencia1 = sp.fft.rfftfreq(len(audio_data2), d=1/sample_rate2)
 
 plt.figure(figsize=(12, 6))
 
