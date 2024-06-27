@@ -1,6 +1,6 @@
 '''
     Anális de Señales - 2024-2
-    Práctica 1: Muetsreo de señales de audio
+    Práctica 1: Muestreo de señales de audio
 '''
 
 # Packages
