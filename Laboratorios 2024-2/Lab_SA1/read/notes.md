@@ -1,8 +1,16 @@
-# Notas para el desarrollo de la práctica
-<hr />
-> Note: se presenta en la tabla de contenidos la 
+# Leer para el desarrollo de la práctica
 
-# Instalación de FFmpeg
+> Note: se presenta en la tabla de contenidos algunas instalaciones adicionales para el desarrollo de la práctica. Asimismo, se detalla en cada paso como realizar correctamente estás dichas instalaciones. 
+
+<hr />
+
+## Tabla de contenidos
+
+- [FFmpeg](#FFmpeg)
+- [Entornos virtuales](#venv)
+  
+## FFmpeg
+
 
 # Creación de un entorno virtual
 
