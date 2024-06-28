@@ -4,8 +4,8 @@
 
 ## Tabla de contenidos
 
-- [Instalación FFmpeg](#FFmpeg)
-- [Entornos virtuales](#Entornosvirtuales)
+- [FFmpeg](#FFmpeg)
+- [Entornos virtuales](#venv)
 
 <hr />
 
