@@ -1,6 +1,7 @@
 # Leer para el desarrollo de la práctica
 
-> Note: se presenta en la tabla de contenidos algunas instalaciones adicionales para el desarrollo de la práctica. Asimismo, se detalla en cada paso como realizar correctamente dichas instalaciones. 
+> [!NOTE:]
+> Se presenta en la tabla de contenidos algunas instalaciones adicionales para el desarrollo de la práctica. Asimismo, se detalla en cada paso como realizar correctamente dichas instalaciones. 
 
 ## Tabla de contenidos
 
