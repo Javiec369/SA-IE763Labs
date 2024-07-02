@@ -1,5 +1,5 @@
 '''
-    Anális de Señales 
+    Análisis de Señales 
     2024-2
     Universidad Tecnológica de Pereira
     
@@ -12,7 +12,7 @@ from nidaqmx.constants import AcquisitionType, READ_ALL_AVAILABLE
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Parámetros de adquisiciónnn
+# Parámetros de adquisición
 f_daq = 5000  
 f_sam = 10    
 n_bits = 2    
