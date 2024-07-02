@@ -12,11 +12,10 @@ from nidaqmx.constants import AcquisitionType, READ_ALL_AVAILABLE
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Parámetros de adquisición
+# Parámetros de adquisiciónnn
 f_daq = 5000  
 f_sam = 10    
 n_bits = 2    
-
 
 # Acquisition
 def new_func(f_daq, f_sam):
