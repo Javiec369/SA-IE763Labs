@@ -17,6 +17,7 @@ f_daq = 5000
 f_sam = 10    
 n_bits = 2    
 
+
 # Acquisition
 def new_func(f_daq, f_sam):
     '''
