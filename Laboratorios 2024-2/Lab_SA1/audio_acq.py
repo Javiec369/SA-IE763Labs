@@ -1,5 +1,5 @@
 '''
-    Anális de Señales
+    Análisis de Señales
     2024-2
     Universidad Tecnológica de Pereira
     
