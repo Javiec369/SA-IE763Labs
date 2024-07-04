@@ -64,14 +64,14 @@ plt.figure(figsize=(12, 6))
 # Una vez obtenga las fft de las señales de audio, grafique
 # el espectro de frecuencias de ambas señales de audio.
 plt.subplot(2, 1, 1)
-plt.plot(frecuencia_original, np.abs(x)**2)
+plt.plot(frecuencia_original, np.abs(x_original)**2)
 plt.title('Espectro de Frecuencias (Audio Original)')
 plt.xlim(0, new_sample_rate)
 plt.xlabel('Frecuencia (Hz)')
 plt.ylabel('Amplitud')
 
 plt.subplot(2, 1, 2)
-plt.plot(frecuencia_sample, np.abs(x1)**2)
+plt.plot(frecuencia_sample, np.abs(x_sample)**2)
 plt.title('Espectro de Frecuencias (Audio Muestreado)')
 plt.xlim(0, new_sample_rate/2)
 plt.xlabel('Frecuencia (Hz)')
