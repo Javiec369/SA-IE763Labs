@@ -18,8 +18,8 @@ f_sam = 10
  
 # Acquisition
 def new_func(f_daq, f_sam):
-    '''
-    Función para adquirir y muestrear una señal.
+    '''Función para adquirir y muestrear una señal.
+
     f_daq: Frecuencia de muestro de la DAQ  
     f_sam: Frecuencia de muestreo de la señal
 
@@ -45,7 +45,7 @@ muestreada con n_bits de cuantización. Modificar apartir de
 la línea siguiente a la variable declarada 'n_bits = 2'
 '''
 n_bits = 2
-####-------------------------------------------------------   
+####Código------------------------------------------------- 
 digital_signal = np.zeros(len(datam))
 
 ####-------------------------------------------------------
