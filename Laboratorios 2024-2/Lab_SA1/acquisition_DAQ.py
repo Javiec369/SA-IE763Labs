@@ -6,7 +6,7 @@
     Práctica 1: Adquisición y muestreo de señales
 '''
 
-# Packages
+# Importar librerías
 import nidaqmx
 from nidaqmx.constants import AcquisitionType, READ_ALL_AVAILABLE
 import matplotlib.pyplot as plt
@@ -15,13 +15,12 @@ import numpy as np
 # Parámetros de adquisición
 f_daq = 5000  
 f_sam = 10    
-n_bits = 2    
-
+ 
 # Acquisition
 def new_func(f_daq, f_sam):
     '''
     Función para adquirir y muestrear una señal.
-    f_daq: Frecuencia de muestreo original
+    f_daq: Frecuencia de muestro de la DAQ  
     f_sam: Frecuencia de muestreo de la señal
 
     return: data, time, datam, timem
@@ -32,7 +31,7 @@ def new_func(f_daq, f_sam):
         data = task.read(READ_ALL_AVAILABLE)
     data = np.array(data)
     time = np.arange(0, len(data) / f_daq, 1 / f_daq)
-
+    
     factor = int(f_daq / f_sam)
     datam = data[::factor]
     timem = time[::factor]
@@ -40,12 +39,19 @@ def new_func(f_daq, f_sam):
 
 data, time, datam, timem = new_func(f_daq, f_sam)
 
-# Digitalization
-nc = (data.max() - data.min()) / (2 ** n_bits)
-quantization_levels = [nc * i for i in range(2 ** n_bits + 1)]
-xd = np.round((data - data.min()) / nc) * nc + data.min()
+# Digitalización 
+'''Realizar el código para la digitalización de la señal 
+muestreada con n_bits de cuantización. Modificar apartir de 
+la línea siguiente a la variable declarada 'n_bits = 2'
+'''
+n_bits = 2
+####-------------------------------------------------------   
+digital_signal = np.zeros(len(datam))
 
-# Plotting
+####-------------------------------------------------------
+
+
+# Gráficas
 fig, axs = plt.subplots(2, 1, figsize=(12, 6))
 
 # Subplot 1
@@ -56,7 +62,7 @@ axs[0].set_title('Señal muestreada')
 axs[0].legend(loc='upper right')
 # Subplot 2
 axs[1].plot(time, data, label='Datos origial', c='blue')
-axs[1].step(time, xd, where="post", c="r", label="Señal digital")
+axs[1].step(time, digital_signal, where="post", c="r", label="Señal digital")
 axs[1].set_ylabel('Amplitud')
 axs[1].set_xlabel('Tiempo (s)')
 axs[1].set_title('Señal digitalizada')
