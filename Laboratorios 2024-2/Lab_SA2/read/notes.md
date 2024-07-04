@@ -7,8 +7,8 @@
 
 - [Descarga OpenBCI GUI](#OpenBCI)
 - [FTDI Drivers](#FTDIDrivers)
-- [Entornos virtuales](#venv)
 - [Arduino](#Arduino)
+- [Entornos virtuales](#venv)
 <hr />
 
 ## OpenBCI
