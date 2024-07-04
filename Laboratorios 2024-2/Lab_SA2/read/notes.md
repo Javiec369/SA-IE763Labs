@@ -6,8 +6,9 @@
 ## Tabla de contenidos
 
 - [Descarga OpenBCI GUI](#OpenBCI)
-- [FTDI Drivers](#drivers)
+- [FTDI Drivers](#FTDIDrivers)
 - [Entornos virtuales](#venv)
+- [Arduino](#Arduino)
 <hr />
 
 ## OpenBCI
@@ -18,6 +19,15 @@
 ## FTDI Driver
 
 Estos drivers permiten la comunicación entre la tarjeta de desarollo (Cyton en este caso) y el Dongle, que es dispositivo USB que recibe los datos de la Cyton. La descarga se realiza desde el siguiente [enlace](https://ftdichip.com/drivers/vcp-drivers/) y dependen del sistema operativo en uso.
+
+## Arduino
+
+Se debe instalar el software Arduino, el cual se descarga del sigueinte [enlace](https://www.arduino.cc/en/software). Además, se debe instalar la librería Firmata como se muestra a continuación:
+ 
+<p align="center">
+   <img src="" width="730" height="540"/>
+</p>
+
 
 ## VENV
 
