@@ -64,7 +64,7 @@ Para la correcta ejecución de la práctica se requieren instaladas algunas libr
         source venv/bin/activate
         ```
 
-4. Descargar el archivo `requirements.txt` dentro de la carpeta [Lab_SA1](https://github.com/Javiec369/SA-IE763Labs/blob/main/Laboratorios%202024-2/Lab_SA1/requirements.txt).
+4. Descargar el archivo `requirements.txt` dentro de la carpeta [Lab_SA2](https://github.com/Javiec369/SA-IE763Labs/blob/main/Laboratorios%202024-2/Lab_SA2/requirements.txt).
 
 5. Ejecutar el siguiente comando en la terminal para la instalación de las librerías.
 
