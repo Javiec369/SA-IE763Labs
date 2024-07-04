@@ -2,7 +2,7 @@
     Análisis de Señales 
     2024-2
     Universidad Tecnológica de Pereira
-    Práctica 1: Adquisición y muestreo de señales
+    Laboratorio 1: Adquisición y muestreo de señales
 '''
 
 # Importar librerías
