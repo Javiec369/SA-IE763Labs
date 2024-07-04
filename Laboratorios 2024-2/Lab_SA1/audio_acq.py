@@ -2,7 +2,7 @@
     Análisis de Señales
     2024-2
     Universidad Tecnológica de Pereira
-    Práctica 1: Muestreo de señales de audio
+    Laboratorio 1: Muestreo de señales de audio
 '''
 
 # Packages
