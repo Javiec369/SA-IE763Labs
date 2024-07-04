@@ -26,7 +26,7 @@ def f_series(t, F, n, y):
 data = pd.read_excel(r'C:\leydi\universidad\automatica\Practicas de señales\practicas20242\practica2\ejemplo.xlsx')
 data = data.drop([0, 1, 2, 3]).reset_index(drop=True)
 data = data.drop(data.columns[0], axis=1)
-data = data.drop(data.columns[16:], axis=1)
+data = data.drop(data.columns[9:], axis=1)
 data.columns = [f'EXGChannel{i}' for i in range(16)]
 
 # Elegir canal a representar
