@@ -23,9 +23,11 @@ Estos drivers permiten la comunicación entre la tarjeta de desarollo (Cyton en 
 ## Arduino
 
 Se debe instalar el software Arduino, el cual se descarga del sigueinte [enlace](https://www.arduino.cc/en/software). Además, se debe instalar la librería Firmata como se muestra a continuación:
+
+
  
 <p align="center">
-   <img src="" width="730" height="540"/>
+   <img src="https://github.com/Javiec369/SA-IE763Labs/assets/87388852/b7dfba93-d6fd-4e62-9feb-01cd2f657e06" width="730" height="540"/>
 </p>
 
 
