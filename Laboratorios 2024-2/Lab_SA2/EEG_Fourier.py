@@ -1,6 +1,7 @@
 '''
     Análisis de Señales
     2024-2
+    Universidad Tecnológica de Pereira
     Laboratorio 2: Transformada de Fourier
 '''
 
