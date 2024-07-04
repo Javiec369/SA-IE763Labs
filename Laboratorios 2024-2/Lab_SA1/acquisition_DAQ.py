@@ -31,7 +31,7 @@ def new_func(f_daq, f_sam):
         data = task.read(READ_ALL_AVAILABLE)
     data = np.array(data)
     time = np.arange(0, len(data) / f_daq, 1 / f_daq)
-    
+
     factor = int(f_daq / f_sam)
     datam = data[::factor]
     timem = time[::factor]
@@ -49,7 +49,6 @@ n_bits = 2
 digital_signal = np.zeros(len(datam))
 
 ####-------------------------------------------------------
-
 
 # Gráficas
 fig, axs = plt.subplots(2, 1, figsize=(12, 6))
