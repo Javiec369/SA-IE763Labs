@@ -1,5 +1,6 @@
 <p align="center">
-  <a <img src="https://github.com/Javiec369/SA-IE763Labs/assets/87388852/ad920c9d-0b78-4502-a9e8-5081e2407ee1"></a>
+![draft_title](https://github.com/Javiec369/SA-IE763Labs/assets/87388852/f5be9ecb-1a7d-466b-bdcc-3052330b8136)
+
   <strong>LABORATORIOS DE ANÁLISIS DE SEÑALES</strong>
 </p>
 
