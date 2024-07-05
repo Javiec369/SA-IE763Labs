@@ -1,5 +1,5 @@
 <p align="center">
-![draft_title](https://github.com/Javiec369/SA-IE763Labs/assets/87388852/f5be9ecb-1a7d-466b-bdcc-3052330b8136)
+  <a href="https://www.manim.community/"><img src="https://raw.githubusercontent.com/ManimCommunity/manim/main/logo/cropped.png"></a>
 
   <strong>LABORATORIOS DE ANÁLISIS DE SEÑALES</strong>
 </p>
