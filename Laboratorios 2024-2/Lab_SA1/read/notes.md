@@ -12,10 +12,11 @@
 
 ## FFmpeg
 
-Está es una herramienta para manipular y convertir archivos multimedia. Descargar el archivo `ffmpeg-master-latest-win64-gpl.zip` del siguiente [enlace](https://github.com/BtbN/FFmpeg-Builds/releases): repositorio en Github de FFmpeg. Descomprimir el zip y copiar el archivo `ffmpeg` que se encuentra en la carpeta 'bin'. Una vez hecho, continue con el siguiente proceso.
+Está es una herramienta para manipular y convertir archivos multimedia. Descargar el archivo `ffmpeg-master-latest-win64-gpl.zip` del siguiente [enlace](https://github.com/BtbN/FFmpeg-Builds/releases): repositorio en Github de FFmpeg. 
 
-- Cree una carpeta 'ffmpeg' dentro de su disco local y copie el archivo `ffmpeg`
-- Copie la dirección de la ruta de ese archivo. Por ejemplo: `C:\ffmpeg\bin`
+- Cree una carpeta 'ffmpeg' dentro de su disco local
+- Descomprimir el zip que descargo anterormente y copiar el archivo `ffmpeg` que se encuentra en la carpeta 'bin',  y copie el archivo `ffmpeg` en la carpeta creada.
+- Copie la dirección de la ruta de esa carpeta. Por ejemplo: `C:\ffmpeg`
 - En configuración > sistema > información. Busque "Configuración avanzada del sistema".
 - En la ventana que se abre, haga clic en "Variables de entorno".
 - En la sección "Variables del sistema" seleccione la variable "Path", luego haz clic en "Editar".
@@ -28,7 +29,7 @@ Para más detalles, puedes ver este [video explicativo sobre la instalación](ht
 
 Para la correcta ejecución de la práctica se requieren instaladas algunas librerías o paquetes de Python. A continuación, los pasos a seguir para realizar la creación de un entorno virtual que nos permite crear un espacio aislado para un proyecto, con su propio conjunto de dependencias, independientemente de las que se instalen en el sistema global. 
 
-### Para Windows
+
 1. Crear un directorio para la práctica. Añadir el número de la práctica al final del nombre.
    
     ```bash
