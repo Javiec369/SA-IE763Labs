@@ -5,11 +5,19 @@
 
 ## Tabla de contenidos
 
+- [Videos acerca del ECG y EEG](#Videos)
 - [Descarga OpenBCI GUI](#OpenBCI)
 - [FTDI Drivers](#FTDIDrivers)
 - [Arduino](#Arduino)
 - [Entornos virtuales](#venv)
 <hr />
+
+## Videos acerca del ECG y EEG
+
+Un electrocardiograma, abreviado como ECG, es un método de monitorización de la actividad, la velocidad y el ritmo cardíaco. Cuando el corazón está en funcionamiento, este se contrae y emite variaciones en la corriente eléctrica. En ese momento, el electrocardiograma registra esas variaciones en forma de curva. A través de la lectura del electrocardiograma, podemos conocer la capacidad del corazón para expulsar sangre, el ritmo y la velocidad del corazón. Un video explicativo de este estudio se muestra en el siguiente [enlace](https://www.youtube.com/watch?v=xIZQRjkwV9Q&t=424s).
+
+El electroencefalograma, abreviado como EEG, registra la actividad bioeléctrica del cerebro mediante electrodos colocados en el cuero cabelludo, en raras ocasiones en la superficie de la corteza cerebral o en la masa encefálica. Esta actividad eléctrica se manifiesta en forma de ondas en el electroencefalograma. Un video explicativo de este estudio se muestra en el siguiente [enlace](https://www.youtube.com/watch?v=T7MKlPYiL48&t=19s).
+
 
 ## OpenBCI
 
