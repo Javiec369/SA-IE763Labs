@@ -16,7 +16,7 @@ f_daq = 5000
 f_sam = 10    
 
 # Adquisición y muestreo de señales
-def Acquisition_function(f_daq, f_sam):
+def acquisition_function(f_daq, f_sam):
     '''
     Función para adquirir y muestrear una señal.
     f_daq: Frecuencia de muestreo original
