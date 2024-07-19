@@ -16,7 +16,7 @@ f_daq = 5000
 f_sam = 10    
 
 # Adquisición y muestreo de señales
-def new_func(f_daq, f_sam):
+def Acquisition_function(f_daq, f_sam):
     '''
     Función para adquirir y muestrear una señal.
     f_daq: Frecuencia de muestreo original
@@ -30,18 +30,19 @@ def new_func(f_daq, f_sam):
         data = task.read(READ_ALL_AVAILABLE)
     data = np.array(data)
     time = np.arange(0, len(data) / f_daq, 1 / f_daq)
+    # Muestreo
     factor = int(f_daq / f_sam)
-    datam = data[::factor]
-    timem = time[::factor]
+    data_m = data[::factor]
+    time_m = time[::factor]
 
-    return data, time, datam, timem
+    return data, time, data_m, time_m
 
 # Subplot 1: Señal original y muestreada
 plt.figure(figsize=[10, 4])
-data, time, datam, timem = new_func(f_daq, f_sam)
+data, t, data_m, t_m = Acquisition_function(f_daq, f_sam)
 plt.subplot(111)
-plt.plot(time, data, label='Datos original', c='blue')
-plt.stem(timem, datam, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
+plt.plot(t, data, label='Datos original', c='blue')
+plt.stem(t_m, data_m, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
 plt.xlabel('Tiempo (s)')
 plt.legend(loc='upper right')
 plt.title('Señal original y muestreada')
@@ -49,10 +50,10 @@ plt.show()
 
 # Subplot 2: Primer aliasing
 plt.figure(figsize=[10, 4])
-data_alias1, time_alias1, datam_alias1, timem_alias1 = new_func(f_daq, f_sam)
+data_alias1, t_alias1, datam_alias1, tm_alias1 = Acquisition_function(f_daq, f_sam)
 plt.subplot(111)
-plt.plot(time_alias1, data_alias1, label='Datos origial', c='blue')
-plt.stem(timem_alias1, datam_alias1, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
+plt.plot(t_alias1, data_alias1, label='Datos origial', c='blue')
+plt.stem(tm_alias1, datam_alias1, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
 plt.xlabel('Tiempo (s)')
 plt.legend(loc='upper right')
 plt.title('Primer aliasing')
@@ -60,10 +61,10 @@ plt.show()
 
 # Subplot 3: Segundo aliasing
 plt.figure(figsize=[10, 4])
-data_alias2, time_alias2, datam_alias2, timem_alias2 = new_func(f_daq, f_sam)
+data_alias2, t_alias2, datam_alias2, tm_alias2 = Acquisition_function(f_daq, f_sam)
 plt.subplot(111)
-plt.plot(time_alias2, data_alias2, label='Datos original', c='blue')
-plt.stem(timem_alias2, datam_alias2, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
+plt.plot(t_alias2, data_alias2, label='Datos original', c='blue')
+plt.stem(tm_alias2, datam_alias2, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
 plt.xlabel('Tiempo (s)')
 plt.legend(loc='upper right')
 plt.title('Segundo aliasing')
