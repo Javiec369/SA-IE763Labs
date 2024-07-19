@@ -37,35 +37,27 @@ def Acquisition_function(f_daq, f_sam):
 
     return data, time, data_m, time_m
 
-# Subplot 1: Señal original y muestreada
-plt.figure(figsize=[10, 4])
-y, t, y_muestras, t_muestras = Acquisition_function(f_daq, f_sam)
-plt.subplot(111)
-plt.plot(t, y, label='Datos original', c='blue')
-plt.stem(t_muestras, y_muestras, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
-plt.xlabel('Tiempo (s)')
-plt.legend(loc='upper right')
-plt.title('Señal original y muestreada')
-plt.show()
+def create_plots(title, f_daq, f_sam):
+    '''
+    Función para crear gráficas de las señales originales y muestreadas.
+    title: Título de la gráfica
+    f_daq: Frecuencia de muestreo DAQ
+    f_sam: Frecuencia de muestreo de la señal
 
-# Subplot 2: Primer aliasing
-plt.figure(figsize=[10, 4])
-y_A1, t_A1, y_muestrasA1, t_muestrasA1 = Acquisition_function(f_daq, f_sam)
-plt.subplot(111)
-plt.plot(t_A1, y_A1, label='Datos origial', c='blue')
-plt.stem(t_muestrasA1, y_muestrasA1, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
-plt.xlabel('Tiempo (s)')
-plt.legend(loc='upper right')
-plt.title('Primer aliasing')
-plt.show()
+    y: Señal original
+    t: Tiempo de la señal original
+    y_muestras: Señal muestreada
+    t_muestras: Tiempo de la señal muestreada
+    '''
+    y, t, y_muestras, t_muestras = acquisition_function(f_daq, f_sam)
+    plt.figure(figsize=[10, 5])
+    plt.plot(t, y, label='Datos original',c='blue')
+    plt.stem(t_muestras, y_muestras, linefmt='r-',markerfmt='ro',basefmt='r-',label='Señal muestreada')
+    plt.xlabel('Tiempo (s)')
+    plt.legend(loc='upper right')
+    plt.title(title)
+    plt.show()
 
-# Subplot 3: Segundo aliasing
-plt.figure(figsize=[10, 4])
-y_A2, t_A2, y_muestrasA2, t_muestrasA2 = Acquisition_function(f_daq, f_sam)
-plt.subplot(111)
-plt.plot(t_A2, y_A2, label='Datos original', c='blue')
-plt.stem(t_muestrasA2, y_muestrasA2, linefmt='r-', markerfmt='ro', basefmt='r-', label='Señal muestreada')
-plt.xlabel('Tiempo (s)')
-plt.legend(loc='upper right')
-plt.title('Segundo aliasing')
-plt.show()
+create_plots('Señal original y muestreada', f_daq, f_sam)
+create_plots('Primer aliasing de la señal', f_daq, f_sam)
+create_plots('Segundo aliasing de la señal', f_daq, f_sam)
