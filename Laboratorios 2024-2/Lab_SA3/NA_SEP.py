@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 # Plotting signals function
 def signal_plots(U_12, U_23, U_31, I_1, I_2, I_3, f_s, Xlim):
     '''
