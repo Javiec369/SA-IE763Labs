@@ -61,7 +61,6 @@ def signal_plots(U_12, U_23, U_31, I_1, I_2, I_3, f_s, Xlim):
     axs[1, 0].grid(True)
     axs[1, 0].set_xlim(0, Xlim / f_s)
 
-    '''Current signals in the sample domain (subplot at position 1,1)'''
     axs[1, 1].plot(I_1, label='I1')
     axs[1, 1].plot(I_2, label='I2')
     axs[1, 1].plot(I_3, label='I3')
